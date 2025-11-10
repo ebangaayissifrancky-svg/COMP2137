@@ -1,0 +1,46 @@
+--2025-11-10 16:54:35--  https://github.com/zonzorp/COMP2137/raw/main/makecontainers.sh
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh [following]
+--2025-11-10 16:54:38--  https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15594 (15K) [text/plain]
+Saving to: ‘/home/francky/makecontainers.sh’
+
+     0K .......... .....                                      100% 28.7M=0.001s
+
+2025-11-10 16:54:38 (28.7 MB/s) - ‘/home/francky/makecontainers.sh’ saved [15594/15594]
+
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 33.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable squid
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+Error: Command not found
+Error: Command not found
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable squid
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
